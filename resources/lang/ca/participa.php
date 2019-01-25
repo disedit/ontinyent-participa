@@ -11,10 +11,10 @@ return [
     'twitter_locale' => 'es',
     'facebook_locale' => 'ca_ES',
     'heading' => 'Tu decideixes en què inverteix l\'Ajuntament!',
-    'subheading' => 'El Govern de [city_name] t\'obri la possibilitat de participar activament en les decisions que més t\'afecten.',
-    'tweet' => 'He votat en què projectes vull que [city_name] invertisca',
-    'description' => 'Tu decideixes les inversions de l\'Ajuntament. El Govern de [city_name] t\'obri la possibilitat de participar activament en les decisions que més t\'afecten. Junts volem millorar [city_name], i el teu vot compta!',
-    'keywords' => '[city_name], ajuntament, ayuntamiento, govern, obert, participacio ciutadana, democracia participativa, [city_name] participa, votació, votación, referendum',
+    'subheading' => 'El Govern d\'Ontinyent t\'obri la possibilitat de participar activament en les decisions que més t\'afecten.',
+    'tweet' => 'He votat en què projectes vull que @ajOntinyent invertisca',
+    'description' => 'Tu decideixes les inversions de l\'Ajuntament. El Govern d\'Ontinyent t\'obri la possibilitat de participar activament en les decisions que més t\'afecten. Junts volem millorar Ontinyent, i el teu vot compta!',
+    'keywords' => 'ontinyent, ajuntament, ayuntamiento, govern, obert, participacio ciutadana, democracia participativa, ontinyent participa, votació, votación, referendum',
 
     /*
     |--------------------------------------------------------------------------

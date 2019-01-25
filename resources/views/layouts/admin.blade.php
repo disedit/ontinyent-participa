@@ -12,11 +12,9 @@
     <title>Admin - {{ config('app.name', 'Participa') }}</title>
 
     <link href="https://fonts.googleapis.com/css?family=Muli:400,600,700,900" rel="stylesheet">
-    <link href="{{ mix('css/app.css') }}" rel="stylesheet">
-    <link href="{{ mix('css/admin.css') }}" rel="stylesheet">
-    @if (file_exists(public_path('css/fontawesome.css')))
-        <link href="{{ mix('css/fontawesome.css') }}" rel="stylesheet">
-    @endif
+    <link href="{{ url(mix('css/app.css')) }}" rel="stylesheet">
+    <link href="{{ url(mix('css/admin.css')) }}" rel="stylesheet">
+    <link href="{{ url(mix('css/fontawesome.css')) }}" rel="stylesheet">
 
 </head>
 <body>

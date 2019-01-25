@@ -237,7 +237,6 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'Messagebird' => Bjrnblm\Messagebird\Facades\Messagebird::class,
-        'Debugbar' => Barryvdh\Debugbar\Facade::class,
         'JWTAuth' => Tymon\JWTAuth\Facades\JWTAuth::class,
         'JWTFactory' => Tymon\JWTAuth\Facades\JWTFactory::class,
         'QrCode' => SimpleSoftwareIO\QrCode\Facades\QrCode::class,

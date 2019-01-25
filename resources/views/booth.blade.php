@@ -33,5 +33,5 @@
         window.BoothMode = {{ var_export($inPerson, true) }};
         window.BoothConfig = {!! json_encode($boothConfig) !!};
     </script>
-    <script src="{{ mix('js/app.js') }}"></script>
+    <script src="{{ url(mix('js/app.js')) }}"></script>
 @endpush

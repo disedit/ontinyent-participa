@@ -14,11 +14,9 @@
 
     <title>@yield('title'){{ config('app.name', 'Participa') }}</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Muli:400,600,700,900" rel="stylesheet">
-    <link href="{{ mix('css/app.css') }}" rel="stylesheet">
-    @if (file_exists(public_path('css/fontawesome.css')))
-        <link href="{{ mix('css/fontawesome.css') }}" rel="stylesheet">
-    @endif
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
+    <link href="{{ url(mix('css/app.css')) }}" rel="stylesheet">
+    <link href="{{ url(mix('css/fontawesome.css')) }}" rel="stylesheet">
 
     @include('components.metatags')
 </head>
@@ -59,7 +57,7 @@
         </div>
     @show
 
-    <script src="{{ mix('js/common.js') }}"></script>
+    <script src="{{ url(mix('js/common.js')) }}"></script>
     @stack('scripts')
 </body>
 </html>

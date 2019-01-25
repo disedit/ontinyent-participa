@@ -1,8 +1,8 @@
 {
-  "name": "Wildcard Participa",
+  "name": "Ontinyent Participa",
   "short_name": "Participa",
-  "theme_color": "#2196f3",
-  "background_color": "#2196f3",
+  "theme_color": "#B7312F",
+  "background_color": "#B7312F",
   "display": "minimal-ui",
   "orientation": "portrait",
   "scope": "/",

@@ -9,32 +9,32 @@ return [
     */
 
     /* The name of the city */
-    'municipality' => 'Any City',
+    'municipality' => 'Ontinyent',
 
     /* The name of the council */
-    'council_name' => 'Any Council',
+    'council_name' => 'Ontinyent',
 
     /* The council's home page */
-    'council_url' => 'https://anycity.com',
+    'council_url' => 'http://www.ontinyent.es',
 
     /* The council's logo / coat of arms */
     'council_logo' => 'council.png',
 
     /* The e-mail where users can contact for support */
-    'contact_email' => 'participa@disedit.com',
+    'contact_email' => 'dubtes@ontinyentparticipa.es',
 
     /* The council's address */
-    'contact_address' => 'Pl. Major, 1',
+    'contact_address' => 'Plaça Major, 1, 46870 Ontinyent (València)',
 
     /* The council's contact phone */
-    'contact_phone' => '44343242',
+    'contact_phone' => '96 291 82 00',
 
     /* The council's facebook page and app ID */
-    'facebook' => 'https://facebook.com/council',
+    'facebook' => 'https://www.facebook.com/ajOntinyent',
     'facebook_app_id' => '180444172483336',
 
     /* The council's twitter account */
-    'twitter' => 'infoDisedit',
+    'twitter' => 'ajOntinyent',
 
     /*
     |--------------------------------------------------------------------------
@@ -58,7 +58,7 @@ return [
     'max_failed_lookups' => 100,
 
     /* Maximum SMS a single voter ID may request */
-    'sms_max_attempts' => 3,
+    'sms_max_attempts' => 4,
 
     /* Whether voting should be anonymous or not */
     'anonymous_voting' => false,
@@ -80,7 +80,7 @@ return [
     'disable_SMS_verification' => false,
 
     /* Primary color of the application */
-    'primary_color' => '#2980b9',
+    'primary_color' => '#B7312F',
 
     /* Set up Google Analytics tracking */
     'google_analytics_ID' => 'UA-106217417-1',
