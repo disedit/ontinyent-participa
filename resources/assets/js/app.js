@@ -46,10 +46,11 @@ const scrollBehavior = (to, from, savedPosition) => {
 
 const router = new VueRouter({
   mode: 'history',
+  base: process.env.MIX_BASEURL,
   scrollBehavior,
   routes: [
     {
-      path: '/',
+      path: '',
       component: Booth,
       children: [
         { path: '', component: BoothBallot },
@@ -71,8 +72,19 @@ const i18n = new VueI18n({
   messages,
 });
 
+var baseUrlMixin = {
+  methods: {
+    baseUrl (path) {
+      API.baseUrl(path);
+    }
+  }
+};
+
 const app = new Vue({
   el: '#booth',
+  mixins: {
+    baseUrlMixin
+  },
   router,
   i18n,
   template: '<transition name="fade" mode="out-in"><router-view /></transition>',

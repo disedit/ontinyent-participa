@@ -1,6 +1,11 @@
 export default class Participa {
   constructor () {
-    this.apiURL = '/api/';
+    this.baseUrl = process.env.MIX_BASEURL;
+    this.apiURL = this.baseUrl + 'api/';
+  }
+
+  baseUrl (path) {
+    return this.baseUrl + path;
   }
 
   getBallot () {

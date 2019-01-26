@@ -10,8 +10,8 @@
           {{ $t('booth_receipt.success') }}
         </div>
         <div class="ballot">
-          <a :href="'/ballot/' + receipt.ref" target="_blank">
-            <img :src="'/api/ballot/qr/' + receipt.ref" alt="QR code" />
+          <a :href="baseUrl('ballot/' + receipt.ref)" target="_blank">
+            <img :src="baseUrl('api/ballot/qr/' + receipt.ref)" alt="QR code" />
             <h3>{{ receipt.ref }}</h3>
             <i class="far fa-arrow-circle-right" aria-hidden="true" alt="Go to ballot"></i>
           </a>
