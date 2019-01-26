@@ -4,13 +4,13 @@
     </div>
 
     <div class="media">
-        <a href="{{ config('participa.council_url') }}" target="_blank" rel="noopener" title="{{ config('participa.council_name', 'Any Council') }}">
-            <img src="{{ secure_asset('images/' . config('participa.council_logo', 'council.png')) }}" alt="{{ config('participa.council_name', 'Any Council') }}" width="100" class="d-flex align-self-start mr-3" />
-        </a>
-
         <div class="media-body council-details">
             <address role="presentation">
-                <h3 class="mt-0">{{ config('participa.council_name', 'Any Council') }}</h3>
+                <h3 class="mt-0">
+                    <a href="{{ config('participa.council_url') }}" target="_blank" rel="noopener" title="{{ config('participa.council_name', 'Any Council') }}">
+                        <img src="{{ secure_asset('images/' . config('participa.council_logo', 'council.png')) }}" alt="{{ config('participa.council_name', 'Any Council') }}" class="council-logo" />
+                    </a>
+                </h3>
                 <p>
                     @if (config('participa.contact_address'))
                         <span><i class="far fa-map-marker-alt faw-fw" aria-hidden="true"></i> {{ config('participa.contact_address') }}</span>

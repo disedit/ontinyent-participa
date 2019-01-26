@@ -10,8 +10,8 @@ return [
     'locale' => 'ca',
     'twitter_locale' => 'es',
     'facebook_locale' => 'ca_ES',
-    'heading' => 'Tu decideixes en què inverteix l\'Ajuntament!',
-    'subheading' => 'El Govern d\'Ontinyent t\'obri la possibilitat de participar activament en les decisions que més t\'afecten.',
+    'heading' => 'La ciutat que volem',
+    'subheading' => 'El <strong>Govern d\'Ontinyent</strong> ha establert la regeneració democràtica i la participació ciutadana com un dels seus pilars bàsics. Regeneració democràtica que passa per donar la veu als ciutadans i ciutadanes i apropar-los a la pressa de decisions. ',
     'tweet' => 'He votat en què projectes vull que @ajOntinyent invertisca',
     'description' => 'Tu decideixes les inversions de l\'Ajuntament. El Govern d\'Ontinyent t\'obri la possibilitat de participar activament en les decisions que més t\'afecten. Junts volem millorar Ontinyent, i el teu vot compta!',
     'keywords' => 'ontinyent, ajuntament, ayuntamiento, govern, obert, participacio ciutadana, democracia participativa, ontinyent participa, votació, votación, referendum',
@@ -33,6 +33,15 @@ return [
     'close' => 'Tanca',
     'ordered_randomly' => 'Ordenades aleatòriament',
     'SMS_notification' => 'El teu codi per a votar és :code',
+
+    /*
+    |--------------------------------------------------------------------------
+    | Nav
+    |--------------------------------------------------------------------------
+    */
+    'info' => 'Informació',
+    'calendar' => 'Calendari',
+    'wayback' => 'Com va començar',
 
     /*
     |--------------------------------------------------------------------------

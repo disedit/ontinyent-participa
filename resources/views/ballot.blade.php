@@ -5,7 +5,7 @@
         <div class="ballot-receipt">
             <div class="ballot ballot-block">
                 <h3 class="ballot__edition">
-                    {{ $ballot->edition->name }}
+                    {{ str_replace('<br />', '', $ballot->edition->name) }}
                     <a href="javascript:window.print()" class="pull-right btn-sm btn btn-success d-print-none"><i class="far fa-print" aria-hidden="true"></i> @lang('participa.print')</a>
                 </h3>
                 <h2 class="ballot__ref">

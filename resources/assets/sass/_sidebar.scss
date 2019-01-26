@@ -62,6 +62,26 @@ $sidebar-text: $gray-light;
         background: $brand-primary-gradient;
       }
     }
+
+    .calendar {
+      float: right;
+      width: 5.5rem;
+
+      &__heading {
+        background: $white;
+        border-bottom: 1px $gray-300 solid;
+        color: $red;
+        font-size: .9rem;
+      }
+
+      &__days {
+        font-size: 1.2rem;
+      }
+
+      &__month {
+        font-size: .9rem;
+      }
+    }
   }
 
   &__propose {
@@ -89,7 +109,7 @@ $sidebar-text: $gray-light;
 
   &__secondary {
     color: $sidebar-text;
-    font-size: 0.80rem;
+    font-size: 0.85rem;
     display: block;
   }
 
@@ -133,21 +153,41 @@ $sidebar-text: $gray-light;
     margin-bottom: 0;
   }
 
-  &:after {
+  &::after {
     content: '';
     position: absolute;
-    left: -2rem;
-    top: 1.25rem;
-    border-top: 1rem transparent solid;
-    border-left: 1rem transparent solid;
-    border-bottom: 1rem transparent solid;
-    border-right: 1rem $sidebar-background solid;
+    left: -0.6rem;
+    top: 1.75rem;
+    width: 1.25rem;
+    height: 1.25rem;
+    background: $sidebar-background;
+    transform: rotate(45deg);
+    border-bottom-left-radius: .25rem;
   }
 }
 
 
 @include media-breakpoint-down(sm) {
-  .sidebar:after {
+  .sidebar::after {
     display: none;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .sidebar {
+    margin-top: -335px;
+
+    &__box {
+      &--main {
+        background: $white;
+        box-shadow: $box-shadow;
+      }
+    }
+
+    &::after {
+      background: $white;
+      border-bottom: 1px $gray-300 solid;
+      border-left: 1px $gray-300 solid;
+    }
   }
 }

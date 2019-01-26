@@ -12,7 +12,7 @@ return [
     'municipality' => 'Ontinyent',
 
     /* The name of the council */
-    'council_name' => 'Ontinyent',
+    'council_name' => 'Ajuntament d\'Ontinyent',
 
     /* The council's home page */
     'council_url' => 'http://www.ontinyent.es',
@@ -43,10 +43,10 @@ return [
     */
 
     /* Main logo to display on all pages */
-    'logo' => null,
+    'logo' => 'logo.png',
 
     /* Main logo for dark backgrounds */
-    'logo_dark' => null,
+    'logo_dark' => 'logo.png',
 
     /* Navbar: light or colorful */
     'navbar' => 'colorful',

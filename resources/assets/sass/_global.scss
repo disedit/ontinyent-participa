@@ -1,5 +1,5 @@
 body {
-  padding-top: 3.5rem;
+  padding-top: 3.375rem;
 }
 
 hr {
@@ -53,4 +53,15 @@ hr {
   background: $brand-primary;
   color: $white;
   padding: 0.5rem;
+}
+
+@include media-breakpoint-up(md) {
+  body {
+    padding-top: 5.325rem;
+    transition: padding .25s cubic-bezier(0.64, 0.57, 0.67, 1.53);
+  
+    &.scrolled {
+      padding-top: 3.375rem;
+    }
+  }
 }

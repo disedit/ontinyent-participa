@@ -5,13 +5,15 @@
 
 <aside class="sidebar">
     <section aria-labelledby="current-poll" class="sidebar__box sidebar__box--main">
+        @include('components/calendar')
+
         @isset ($isArchive)
             <h3 id="current-poll">@lang('participa.poll')</h3>
         @else
             <h3 id="current-poll">@lang('participa.current_poll')</h3>
         @endif
 
-        <h4>{{ $edition->name }}</h4>
+        <h4>{!! $edition->name !!}</h4>
         <p class="sidebar__secondary">@lang('participa.sidebar_dates', ['start_date' => human_date($edition->start_date), 'end_date' => human_date($edition->end_date)])</p>
 
         <div class="sidebar__social-plugins">
@@ -21,7 +23,7 @@
         </div>
 
         <div v-if="docs">
-            <hr aria-hidden="true" />
+            <hr aria-hidden="true" class="d-none my-2" />
 
             <ul class="sidebar__list">
                 <li class="sidebar__list__item">
