@@ -72,19 +72,16 @@ const i18n = new VueI18n({
   messages,
 });
 
-var baseUrlMixin = {
+Vue.mixin({
   methods: {
     baseUrl (path) {
-      API.baseUrl(path);
+      return window.Participa.baseUrl(path);
     }
   }
-};
+});
 
 const app = new Vue({
   el: '#booth',
-  mixins: {
-    baseUrlMixin
-  },
   router,
   i18n,
   template: '<transition name="fade" mode="out-in"><router-view /></transition>',

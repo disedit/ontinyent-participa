@@ -4,7 +4,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-sm">
-            <h1>{{ edition.name }}</h1>
+            <h1 v-html="edition.name"></h1>
           </div>
           <div class="col-sm text-right">
             <div v-if="editionIsOpen" class="vote-status vote-status--open">
@@ -18,7 +18,7 @@
         <hr class="mt-3" />
         <div class="row">
           <div class="col-sm-6">
-            <a href="/"
+            <a :href="baseUrl()"
               target="_blank"
               :class="{
                 'btn btn-lg btn-block': true,

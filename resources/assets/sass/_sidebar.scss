@@ -190,4 +190,10 @@ $sidebar-text: $gray-light;
       border-left: 1px $gray-300 solid;
     }
   }
+
+  .has-vote-info--compact {
+    .sidebar {
+      margin-top: -215px;
+    }
+  }
 }

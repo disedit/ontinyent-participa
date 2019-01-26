@@ -64,7 +64,11 @@
 
       if (from.path !== to.path) {
         let voteInfo = document.getElementsByClassName('vote-info')[0];
-        voteInfo.classList.add('vote-info--compact');
+        if (to.path === '/') {
+          voteInfo.classList.remove('d-none');
+        } else {
+          voteInfo.classList.add('d-none');
+        }
       }
 
       this.transitionName = transitionName;
