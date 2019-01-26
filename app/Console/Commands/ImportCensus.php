@@ -63,8 +63,18 @@ class ImportCensus extends Command
 
         $lines = explode("\n", $contents);
 
-        foreach ($lines as $SID) {
+        foreach ($lines as $line) {
+            if (empty($line)) continue;
+
+            $parts = explode(";", $line);
+            $country = $parts[0];
+            $ID = $parts[1];
+            $letter = $parts[2];
+
+            $SID = ($country == 'ES') ? substr($ID, 1) . $letter : $ID . $letter;
+
             if (empty($SID)) continue;
+
             $voter = new Voter;
             $voter->SID = $this->cleanSID($SID);
             $voter->edition_id = $edition->id;
