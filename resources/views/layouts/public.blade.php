@@ -14,6 +14,7 @@
 
     <title>@yield('title'){{ config('app.name', 'Participa') }}</title>
 
+    <link rel="shortcut icon" href="https://www.ontinyentparticipa.es/public/img/favicon.png" type="image/x-icon" />
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
     <link href="{{ url(mix('css/app.css')) }}" rel="stylesheet">
     <link href="{{ url(mix('css/fontawesome.css')) }}" rel="stylesheet">
