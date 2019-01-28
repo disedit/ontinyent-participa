@@ -10,7 +10,7 @@ return [
     'locale' => 'es',
     'twitter_locale' => 'es',
     'facebook_locale' => 'es_ES',
-    'heading' => '¡Tú decides en qué invierte el Ayuntamiento!',
+    'heading' => 'La ciudad que queremos',
     'subheading' => 'El Gobierno de Ontinyent te abre la posibilidad de participar activamente en las decisioines que más te afectan.',
     'tweet' => 'He votado en qué proyectos quiero que @ajOntinyent invierta',
     'description' => 'Tú decides las inversiones del Ayuntamiento. El Gobierno de Ontinyent te abre la posibilidad de participar activamente en las decisioines que más te afectan. Juntos queremos mejorar Ontinyent, ¡y tu voto cuenta!',
