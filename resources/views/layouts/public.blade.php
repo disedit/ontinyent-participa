@@ -47,6 +47,7 @@
 
             @yield('content')
         </div>
+        @yield('wayback')
     </main>
 
     @section('footer')
