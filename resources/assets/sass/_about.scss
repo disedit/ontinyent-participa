@@ -117,8 +117,9 @@
 	margin-bottom: 0.5rem;
 }
 
-.columns {
-  column-count: 3;
+.columns,
+.card-columns {
+  column-count: 2;
 }
 
 @include media-breakpoint-down(sm) {

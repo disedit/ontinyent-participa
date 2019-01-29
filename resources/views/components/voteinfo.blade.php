@@ -1,4 +1,4 @@
-<header class="vote-info {{ (!Request::segment(1)) ? 'vote-info--full' : 'vote-info--compact' }}">
+<header class="vote-info {{ !app('request')->input('header') ? 'vote-info--alt-header' : '' }} {{ (!Request::segment(1)) ? 'vote-info--full' : 'vote-info--compact' }}">
     @if (!$inPerson)
         <div class="left-hands"></div>
         <div class="right-hands"></div>

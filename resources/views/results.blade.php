@@ -146,7 +146,10 @@
         </div>
     </div>
 </div>
+@endsection
 
+@section('wayback')
+    @include('components.wayback')
 @endsection
 
 @push('scripts')

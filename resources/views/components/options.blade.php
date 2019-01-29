@@ -52,7 +52,7 @@
                     option_title = e.relatedTarget.dataset.optionTitle;
 
                 $(".modal-title", this).text(option_title);
-                $(".modal-body").load('/api/option/' + option_id);
+                $(".modal-body").load('/llombo/api/option/' + option_id);
             });
         });
     </script>
