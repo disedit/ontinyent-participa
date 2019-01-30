@@ -58,6 +58,7 @@
   border-bottom: 1px $gray-lighter solid;
   background-image: url('../images/pattern.svg');
   background-size: 633px;
+  background-position: center;
 
   &--alt-header {
     background-image: url('../images/background.jpg');
@@ -66,7 +67,7 @@
     &::after {
       content: '';
       position: absolute;
-      background: linear-gradient(to right, rgba($black, .35), rgba($black, 0));
+      background: linear-gradient(to right, rgba($black, .45), rgba($black, 0));
       display: block;
       top: 0;
       left: 0;
@@ -109,6 +110,16 @@
     padding-right: 80px;
     font-size: 0.9rem;
     max-width: 630px;
+
+    span {
+      background: $red;
+      color: $white;
+      padding: 0.15rem 0.5rem;
+      -webkit-box-decoration-break: clone;
+      box-decoration-break: clone;
+      border-radius: 0.25rem;
+      font-weight: bold;
+    }
   }
 
   &__action {
@@ -217,7 +228,7 @@
       .vote-info__intro {
         font-size: 1rem;
         margin-bottom: 0;
-        display: block;
+        display: none;
       }
     }
   }

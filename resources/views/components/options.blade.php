@@ -1,11 +1,12 @@
 @foreach ($edition->questions as $question)
     <div class="options-widget">
-        <h4>{{ $question->question }}</h4>
+        <h4 class="d-none">{{ $question->question }}</h4>
         <div class="card-columns">
             @foreach ($question->options as $option)
                 <div class="card option">
-                    <a  href="#" data-toggle="modal" data-target="#optionModal" data-option-id="{{ $option->id }}" data-option-title="{{ $option->option }}" class="option__card">
-                        <h5>{{ $option->option }}</h5>
+                    <a href="#" data-toggle="modal" data-target="#optionModal" data-option-id="{{ $option->id }}" data-option-title="{{ $option->option }}" class="option__card">
+                        <h5 class="mb-2">{{ $option->option }}</h5>
+                        <img src="https://www.ontinyentparticipa.es/{{ $option->pictures }}" alt="Imatge de l'opció" class="option__picture" width="100%" />
 
                         @if ($question->display_cost)
                             <div class="option__cost">{{ number($option->cost, 0) . '€' }}</div>
@@ -52,7 +53,7 @@
                     option_title = e.relatedTarget.dataset.optionTitle;
 
                 $(".modal-title", this).text(option_title);
-                $(".modal-body").load('/llombo/api/option/' + option_id);
+                $(".modal-body").load('/api/option/' + option_id);
             });
         });
     </script>

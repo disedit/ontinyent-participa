@@ -1,19 +1,12 @@
-<div class="about-block">
+<div class="about-block about-block--vote-yea">
   <div class="about-block__icon">
-    <i class="far fa-info-circle"></i>
+    <i class="far fa-vote-yea"></i>
   </div>
+  <h3>Què es votarà?</h3>
 
-  <h3>Consulta Ciutadana Barri del Llombo</h3>
+  <p>Es podrà votar 1 de les 2 propostes plantejades.</p>
 
-  <p>
-    El passat mes de desembre es va obrir el tràfic a la nova redona d'accés al barri
-    del Llombo. Després de reunions amb diferents representants del barri es va decidir
-    reajustar les direccions d'acord amb el Pla de Mobilitat Urbana Sostenible d'Ontinyent (PMUS).
-  </p>
-  <p>
-    És per això, que se sotmet a consulta del veïnat la possible modificació de les
-    direccions de circulació de l'avinguda Comte Torrefiel.
-  </p>
+  [options]
 </div>
 
 <div class="about-block">
@@ -26,17 +19,6 @@
     Podran participar en aquest procés aquelles persones majors de 16 anys empadronades
     al barri del Llombo.
   </p>
-</div>
-
-<div class="about-block about-block--vote-yea">
-  <div class="about-block__icon">
-    <i class="far fa-vote-yea"></i>
-  </div>
-  <h3>Què es votarà?</h3>
-
-  <p>Es podrà votar 1 de les 2 propostes plantejades.</p>
-
-  [options]
 </div>
 
 <div class="about-block">

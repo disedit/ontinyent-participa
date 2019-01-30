@@ -4,6 +4,7 @@ $sidebar-text: $gray-light;
 
 .sidebar {
   position: relative;
+  z-index: 10;
 
   &__box {
     position: relative;
@@ -175,7 +176,7 @@ $sidebar-text: $gray-light;
 
 @include media-breakpoint-up(xl) {
   .sidebar {
-    margin-top: -335px;
+    margin-top: -395px;
 
     &__box {
       &--main {
@@ -193,7 +194,7 @@ $sidebar-text: $gray-light;
 
   .has-vote-info--compact {
     .sidebar {
-      margin-top: -215px;
+      margin-top: -120px;
     }
   }
 }

@@ -26,6 +26,4 @@ if (fs.existsSync('node_modules/@fortawesome/fontawesome-pro')) {
 
 if (mix.inProduction) {
     mix.version();
-    // mix.setPublicPath('llombo');
-    // mix.setResourceRoot('/llombo/');
 }

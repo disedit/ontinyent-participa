@@ -62,6 +62,7 @@
         this.clearBooth();
       }
 
+      /*
       if (from.path !== to.path) {
         let voteInfo = document.getElementsByClassName('vote-info')[0];
         if (to.path === '/') {
@@ -70,6 +71,7 @@
           voteInfo.classList.add('d-none');
         }
       }
+      */
 
       this.transitionName = transitionName;
       next();
