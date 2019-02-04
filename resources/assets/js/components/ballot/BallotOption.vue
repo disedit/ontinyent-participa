@@ -16,6 +16,9 @@
 
       <span class="custom-control-label">
         <span class="option-name" :id="'option-' + option.id">{{ option.option }}</span>
+        <span class="option-image">
+          <img :src="option.pictures" alt="" width="100%" />
+        </span>
         <span v-if="displayCost && option.cost > 0" class="option-cost">{{ option.cost | formatCurrency }}</span>
       </span>
     </div>

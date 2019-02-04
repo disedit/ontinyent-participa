@@ -154,7 +154,7 @@
     position: relative;
     width: 100%;
     margin: 0.75rem 0;
-    padding: 1.25rem 1.25rem 3rem 1.25rem;
+    padding: 1.25rem;
     transition-timing-function: ease-out;
     transition-duration: .15s;
     transform: translateY(0);
@@ -176,6 +176,10 @@
 
     &:active {
       background: lighten($brand-primary, 45%);
+    }
+
+    img {
+      margin-top: 0.5rem;
     }
   }
 
@@ -239,7 +243,6 @@
 
     .list-group-item {
       width: 50%;
-      height: 10rem;
       align-items: flex-start;
       overflow: hidden;
       padding-bottom: 3rem;
@@ -253,16 +256,15 @@
     }
 
     .option {
-    height: 10rem;
-    width: 50%;
+      width: 50%;
 
-    &:nth-child(even) {
-      padding-left: 0.75rem;
-    }
+      &:nth-child(even) {
+        padding-left: 0.75rem;
+      }
 
-    &:nth-child(odd) {
-      padding-right: 0.75rem;
-    }
+      &:nth-child(odd) {
+        padding-right: 0.75rem;
+      }
     }
   }
 
