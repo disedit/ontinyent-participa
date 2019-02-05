@@ -17,8 +17,8 @@ export default {
   },
   booth_identification: {
     heading: 'Identificació',
-    subheading: 'Pots votar si tens més de <strong>{min_age} anys</strong> i estàs empadronat a <strong>{municipality}</strong>',
-    label: 'DNI, NIE o Passport',
+    subheading: 'Pots votar si tens més de <strong>{min_age} anys</strong> i estàs empadronat al <strong>barri del Llombo</strong>',
+    label: 'DNI, NIE o Passaport',
     tooltip: 'Passaport només si eres resident estranger',
     button: 'Vota',
     anonymous_voting: 'El teu vot és anònim i serà encriptat'
