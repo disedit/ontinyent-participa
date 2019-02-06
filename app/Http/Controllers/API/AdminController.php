@@ -59,11 +59,15 @@ class AdminController extends Controller
             ], 422);
         }
 
+        /*
+        Client requested to disable this
+
         if ($ballot->by_user_id) {
             return response()->json([
                 'SID' => ['Aquesta papereta no es pot anul·lar perquè s\'ha emés de manera presencial.']
             ], 422);
         }
+        */
 
         /* Do not submit report and delete ballot if not double confirmed */
         if (!$confirm) {
