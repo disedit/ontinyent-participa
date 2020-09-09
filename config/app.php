@@ -177,7 +177,6 @@ return [
         Dimsav\Translatable\TranslatableServiceProvider::class,
         NotificationChannels\Messagebird\MessagebirdServiceProvider::class,
         SimpleSoftwareIO\QrCode\QrCodeServiceProvider::class,
-        Sentry\SentryLaravel\SentryLaravelServiceProvider::class,
         Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class,
 
         /*

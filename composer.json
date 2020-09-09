@@ -10,7 +10,6 @@
         "laravel-notification-channels/messagebird": "^1.0",
         "laravel/framework": "5.5.*",
         "laravel/tinker": "~1.0",
-        "sentry/sentry-laravel": "^0.8.0",
         "simplesoftwareio/simple-qrcode": "^1.5",
         "symfony/polyfill-iconv": "^1.5",
         "tymon/jwt-auth": "0.5.*"
