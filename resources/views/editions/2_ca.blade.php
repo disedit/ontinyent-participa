@@ -13,7 +13,7 @@
 <h2><strong>Ontinyent Participa 2020</strong></h2>
 
 <div class="embed-responsive embed-responsive-16by9" style="border-radius: 5px; overflow: hidden;">
-<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/gt1kW4eI3eA?modestbranding=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/LXKNoxA7bhs?modestbranding=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class="about-block">
@@ -27,8 +27,8 @@
             <div class="calendar">
                 <div class="calendar__heading">Propostes</div>
                 <div class="calendar__dates" aria-label="14 de setembre al 4 d'octubre">
-                    <div class="calendar__days" aria-hidden="true"><strong>14-4</strong></div>
-                    <div class="calendar__month" aria-hidden="true">sept / oct</div>
+                    <div class="calendar__days" aria-hidden="true"><strong>14</strong> - <strong>4</strong></div>
+                    <div class="calendar__month" aria-hidden="true">set. / oct.</div>
                 </div>
             </div>
         </div>
@@ -49,13 +49,19 @@
                 <div class="calendar__heading">Tallers</div>
                 <div class="calendar__dates">
                     <div class="calendar__days"><strong>16</strong> - <strong>30</strong></div>
-                    <div class="calendar__month">sept</div>
+                    <div class="calendar__month">setembre</div>
                 </div>
             </div>
         </div>
         <div class="phase__text">
             <p>
-              <strong>Tallers formatius i deliberatius</strong> per a la formulació consensuada de propostes entre la ciutadania. <strong>Els tallers tindran lloc el 16, 23 i 30 de setembre de 2020.</strong>
+              <strong>Tallers formatius i deliberatius</strong> per a la formulació consensuada de propostes entre la ciutadania. Els tallers tindran lloc el 16, 23 i 30 de setembre de 2020.
+              <ul>
+                <li>
+                  Taller formatiu: "<strong>Igualtat, Gènere i Joventut en la Responsabilitat Social Corporativa</strong>"
+                  <div class="text-muted">16 de setembre a les 19.30h, Sala Gomis</div>
+                </li>
+              </ul>
             </p>
         </div>
     </div>

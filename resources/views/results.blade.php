@@ -3,6 +3,10 @@
 @section('content')
 <div class="row results-page">
     <div class="col-md-8">
+        @isset($isArchive)
+            <div class="alert alert-info mb-4"><i class="far fa-archive" aria-hidden="true"></i> @lang('participa.is_archive', ['end_date' => human_date($edition->end_date) . ' ' . date('Y', strtotime($edition->end_date))])</div>
+        @endisset
+
         <h2><i class="far fa-chart-bar" aria-hidden="true"></i> @lang('participa.results')</h2>
 
         <table class="census table table-bordered">

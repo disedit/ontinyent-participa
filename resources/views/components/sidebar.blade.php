@@ -14,7 +14,8 @@
         @endif
 
         <h4>{!! $edition->name !!}</h4>
-        <p class="sidebar__secondary">@lang('participa.sidebar_dates', ['start_date' => human_date($edition->start_date), 'end_date' => human_date($edition->end_date)])</p>
+        <p class="sidebar__secondary mb-0 mt-3"><strong>Fase de presentació de propostes</strong></p>
+        <p class="sidebar__secondary">Del 14 de setembre al 4 d'octubre</p>
 
         <div class="sidebar__social-plugins">
             @component('components.share_buttons', ['share' => 'false'])
