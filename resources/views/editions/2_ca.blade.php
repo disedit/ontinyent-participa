@@ -1,0 +1,227 @@
+{{--
+  <div class="about-block about-block--vote-yea">
+  <div class="about-block__icon">
+    <i class="far fa-vote-yea"></i>
+  </div>
+  <h3>Què es votarà?</h3>
+
+  <p>Es podrà votar 1 de les 2 propostes plantejades.</p>
+
+  [options]
+</div>
+--}}
+<h2><strong>Ontinyent Participa 2020</strong></h2>
+
+<div class="embed-responsive embed-responsive-16by9" style="border-radius: 5px; overflow: hidden;">
+<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/gt1kW4eI3eA?modestbranding=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="about-block">
+  <div class="about-block__icon">
+    <i class="far fa-calendar-alt"></i>
+  </div>
+  <h3>Calendari</h3>
+  <div class="phases">
+    <div class="phase">
+        <div class="phase__calendar">
+            <div class="calendar">
+                <div class="calendar__heading">Propostes</div>
+                <div class="calendar__dates" aria-label="14 de setembre al 4 d'octubre">
+                    <div class="calendar__days" aria-hidden="true"><strong>14-4</strong></div>
+                    <div class="calendar__month" aria-hidden="true">sept / oct</div>
+                </div>
+            </div>
+        </div>
+        <div class="phase__text">
+            <p>
+              La ciutadania i les associacions poden fer arribar les propostes mitjançant el correu electrònic <a href="mailto:proposa@ontinyentparticipa.es">proposa@ontinyentparticipa.es</a>, el <a href="/propose">formulari online</a> o mitjançant el Registre General de l’Ajuntament.
+            </p>
+        </div>
+    </div>
+
+    <div class="phase__path">
+        <img src="/images/path-1.svg" alt="">
+    </div>
+
+    <div class="phase">
+        <div class="phase__calendar">
+            <div class="calendar">
+                <div class="calendar__heading">Tallers</div>
+                <div class="calendar__dates">
+                    <div class="calendar__days"><strong>16</strong> - <strong>30</strong></div>
+                    <div class="calendar__month">sept</div>
+                </div>
+            </div>
+        </div>
+        <div class="phase__text">
+            <p>
+              <strong>Tallers formatius i deliberatius</strong> per a la formulació consensuada de propostes entre la ciutadania. <strong>Els tallers tindran lloc el 16, 23 i 30 de setembre de 2020.</strong>
+            </p>
+        </div>
+    </div>
+
+    <div class="phase__path mt-0">
+        <img src="/images/path-2.svg" alt="" style="transform: rotate(180deg);">
+    </div>
+
+    <div class="phase">
+      <div class="phase__calendar">
+          <div class="calendar">
+              <div class="calendar__heading">Fase tècnica</div>
+              <div class="calendar__dates">
+                  <div class="calendar__days"><strong>5</strong> - <strong>30</strong></div>
+                  <div class="calendar__month">octubre</div>
+              </div>
+          </div>
+      </div>
+      <div class="phase__text">
+          <p>
+            L'Oficina Tècnica junt amb els departaments d'Educació i de Benestar Social, <strong>filtraran i analitzaran les propostes</strong> seguint criteris tècnics per aprovar la viabilitat dels projectes.
+          </p>
+      </div>
+    </div>
+
+    <div class="phase__path mt-0">
+        <img src="/images/path-1.svg" alt="" style="transform: rotate(180deg);">
+    </div>
+
+    <div class="phase">
+      <div class="phase__calendar">
+          <div class="calendar">
+              <div class="calendar__heading">Sectorials</div>
+              <div class="calendar__dates">
+                  <div class="calendar__days"><strong>2</strong> - <strong>6</strong></div>
+                  <div class="calendar__month">novembre</div>
+              </div>
+          </div>
+      </div>
+      <div class="phase__text">
+          <p>
+            Els <strong>Consells Sectorials</strong> es reuniran per valorar i decidir la puntuació que atorguen a cada proposta i finalment, al <strong>Consell de ciutat es votaran les 10 propostes finalistes</strong>.
+          </p>
+      </div>
+    </div>
+
+    <div class="phase__path mt-0">
+        <img src="/images/path-2.svg" alt="" style="transform: rotate(180deg);">
+    </div>
+
+    <div class="phase">
+      <div class="phase__calendar">
+          <div class="calendar">
+              <div class="calendar__heading">Campanya</div>
+              <div class="calendar__dates">
+                  <div class="calendar__days"><strong>9</strong> - <strong>13</strong></div>
+                  <div class="calendar__month">novembre</div>
+              </div>
+          </div>
+      </div>
+      <div class="phase__text">
+          <p>
+            <strong>Les propostes finalistes seran exposades i defensades pels seus proposants</strong> mitjançant les xarxes oficials de l'Ajuntament d'Ontinyent. 
+          </p>
+      </div>
+    </div>
+
+    <div class="phase__path mt-0">
+        <img src="/images/path-1.svg" alt="" style="transform: rotate(180deg);">
+    </div>
+
+    <div class="phase">
+        <div class="phase__calendar">
+            <div class="calendar calendar--red">
+                <div class="calendar__heading">Votació</div>
+                <div class="calendar__dates">
+                    <div class="calendar__days"><strong>17</strong> - <strong>29</strong></div>
+                    <div class="calendar__month">novembre</div>
+                </div>
+            </div>
+        </div>
+        <div class="phase__text">
+            <p>
+              <strong>Es podran votar 5 de les 10 propostes finalistes</strong> de manera telemàtica a través d'aquesta pàgina web. I de manera presencial, al Teatre Echegaray, Centre Cívic del Llombo, EPA Sant Carles, Agència de Lectura de Sant Rafel, Biblioteca de Sant Josep i a l’Ajuntament d'Ontinyent.
+            </p>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="about-block">
+  <div class="about-block__icon">
+    <i class="far fa-user"></i>
+  </div>
+  <h3>Qui pot participar?</h3>
+
+  <p>
+    Podran participar en aquest procés aquelles persones <strong>majors de 16 anys</strong> empadronades
+    a <strong>Ontinyent</strong>.
+  </p>
+</div>
+
+<div class="about-block">
+  <div class="about-block__icon">
+    <i class="far fa-building"></i>
+  </div>
+  <h3>On es participa?</h3>
+
+  <p>
+    Per tal de facilitar la participació del veïnat, es podrà manifestar el parer de
+    cadascú a les següents instal·lacions municipals:
+  </p>
+
+  <ul>
+    <li>Teatre Echegaray</li>
+    <li>Centre Cívic del Llombo</li>
+    <li>EPA Sant Carles</li>
+    <li>Agència de Lectura de Sant Rafel</li>
+    <li>Biblioteca de Sant Josep</li>
+    <li>Ajuntament d'Ontinyent</li>
+  </ul>
+
+  <p>L’Ajuntament facilitarà paperetes als votants en cada una de les seus.</p>
+</div>
+
+<div class="about-block">
+  <div class="about-block__icon">
+    <i class="far fa-globe-europe"></i>
+  </div>
+
+  <h3>Es podrà votar per internet?</h3>
+
+  <p>
+    Es podrà votar mitjançant una plataforma d’internet i amb un sistema de votació
+    telemàtic accessible des de <strong>qualsevol ordinador o dispositiu mòbil</strong>. Per cada línea
+    IP es podran efectuar 3 votacions. A aquesta matiexa pàgina web, s’haurà
+    d’introduir prèviament el DNI a la casella que s’indique. Aquelles persones que
+    descobrisquen que algú ha suplantat la seua identitat o vullguen rectificar el seu
+    vot, podran dirigir-se a qualsevol dels punts de votació ubicats als edificis
+    municipals i demanar a la persona encarregada l’anul·lació del vot emès i la
+    voluntat de tornar a votar, presentant el seu DNI.
+  </p>
+</div>
+
+<div class="about-block">
+  <div class="about-block__icon">
+    <i class="far fa-calendar-check"></i>
+  </div>
+
+  <h3>Inici i final de la votació.</h3>
+
+  <p>
+    S’ha establert un període de votació que començarà, a les 00h del
+    dia <strong>17 de novembre de 2020</strong> i conclourà el dia <strong>29 de novembre</strong>. Físicament es podrà votar
+    a les seus habilitades dins del seu horari d’obertura.
+  </p>
+</div>
+
+<div class="about-block">
+  <div class="about-block__icon">
+    <i class="far fa-poll"></i>
+  </div>
+  <h3>Resultat de la votació.</h3>
+
+  <p>
+    El resultat de la votació es farà públic
+    <strong>només concloga el període de votació</strong> el dia 30 de novembre.
+  </p>
+</div>

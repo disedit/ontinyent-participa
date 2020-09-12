@@ -4,8 +4,7 @@
             <div class="row">
                 <div class="col-md-8 vote-info__text">
                     <h2>@lang('participa.heading')</h2>
-                    <p class="vote-info__intro">El passat mes de desembre es va obrir el tràfic a la nova redona d'accés al barri del Llombo. Després de reunions amb diferents representants del barri es va decidir reajustar les direccions d'acord amb el Pla de Mobilitat Urbana Sostenible d'Ontinyent (PMUS).</p>
-                    <p class="vote-info__intro">És per això, que se sotmet a <span>consulta del veïnat la possible modificació de les direccions de circulació de l'avinguda Comte Torrefiel</span>.</p>
+                    <p class="vote-info__intro">Comencem una edició de l'Ontinyent Participa adaptada a la pandèmia, amb més formació per a la ciutadania i més temps per a votar. S'estableix que un mínim del 50% de les propostes guanyadores estiguen destinades a causes o accions de caràcter social, mediambiental o igualitari, d'acord amb els objectius de l'Agenda 2030.</p>
 
                     @if (isset($edition))
                         <p class="vote-info__action">

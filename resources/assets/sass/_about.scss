@@ -122,6 +122,48 @@
   column-count: 2;
 }
 
+.phase {
+  display: flex;
+
+  &__calendar {
+    flex-shrink: 0;
+    margin-right: 1rem;
+
+    .calendar {
+      border: 2px $brand-primary solid;
+      width: 100px;
+      margin-top: 3px;
+
+      &__heading {
+        font-size: 0.75rem;
+      }
+
+      &__dates {
+        padding: 0.25rem;
+      }
+
+      &__days {
+        font-size: 1rem;
+      }
+
+      &__month {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  &__path {
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    opacity: 0.25;
+
+    img {
+      height: 80px;
+    }
+  }
+}
+
 @include media-breakpoint-down(sm) {
   .about-block {
     margin-left: 0;
