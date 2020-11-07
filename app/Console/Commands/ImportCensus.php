@@ -71,7 +71,7 @@ class ImportCensus extends Command
             $ID = $parts[1];
             $letter = $parts[2];
 
-            $SID = ($country == 'ES') ? substr($ID, 1) . $letter : $ID . $letter;
+            $SID = ($country == 'ES' && substr($ID, 0, 1) == '0') ? substr($ID, 1) . $letter : $ID . $letter;
 
             if (empty($SID)) continue;
 

@@ -34,7 +34,7 @@
         </div>
         <div class="phase__text">
             <p>
-              La ciutadania i les associacions poden fer arribar les propostes mitjançant el correu electrònic <a href="mailto:proposa@ontinyentparticipa.es">proposa@ontinyentparticipa.es</a>, el <a href="/propose">formulari online</a> o mitjançant el Registre General de l’Ajuntament.
+              La ciutadania i les associacions poden fer arribar les propostes mitjançant el <a href="/propose">formulari online</a>.
             </p>
         </div>
     </div>
@@ -48,7 +48,7 @@
             <div class="calendar">
                 <div class="calendar__heading">Tallers</div>
                 <div class="calendar__dates">
-                    <div class="calendar__days"><strong>16</strong> - <strong>30</strong></div>
+                    <div class="calendar__days"><strong>16</strong>, <strong>23</strong> i <strong>30</strong></div>
                     <div class="calendar__month">setembre</div>
                 </div>
             </div>
@@ -145,7 +145,7 @@
         </div>
         <div class="phase__text">
             <p>
-              <strong>Es podran votar 5 de les 10 propostes finalistes</strong> de manera telemàtica a través d'aquesta pàgina web. I de manera presencial, al Teatre Echegaray, Centre Cívic del Llombo, EPA Sant Carles, Agència de Lectura de Sant Rafel, Biblioteca de Sant Josep i a l’Ajuntament d'Ontinyent.
+              <strong>Es podran votar 5 de les 10 propostes finalistes</strong> de manera telemàtica a través d'aquesta pàgina web.
             </p>
         </div>
     </div>
@@ -170,21 +170,9 @@
   </div>
   <h3>On es participa?</h3>
 
-  <p>
-    Per tal de facilitar la participació del veïnat, es podrà manifestar el parer de
-    cadascú a les següents instal·lacions municipals:
+  <p>Es podrà votar telemàticament per mitjà del sistema
+    habilitat per internet.
   </p>
-
-  <ul>
-    <li>Teatre Echegaray</li>
-    <li>Centre Cívic del Llombo</li>
-    <li>EPA Sant Carles</li>
-    <li>Agència de Lectura de Sant Rafel</li>
-    <li>Biblioteca de Sant Josep</li>
-    <li>Ajuntament d'Ontinyent</li>
-  </ul>
-
-  <p>L’Ajuntament facilitarà paperetes als votants en cada una de les seus.</p>
 </div>
 
 <div class="about-block">
@@ -215,8 +203,7 @@
 
   <p>
     S’ha establert un període de votació que començarà, a les 00h del
-    dia <strong>17 de novembre de 2020</strong> i conclourà el dia <strong>29 de novembre</strong>. Físicament es podrà votar
-    a les seus habilitades dins del seu horari d’obertura.
+    dia <strong>17 de novembre de 2020</strong> i conclourà el dia <strong>29 de novembre</strong>.
   </p>
 </div>
 
