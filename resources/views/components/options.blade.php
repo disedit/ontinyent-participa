@@ -6,7 +6,6 @@
                 <div class="card option">
                     <a href="#" data-toggle="modal" data-target="#optionModal" data-option-id="{{ $option->id }}" data-option-title="{{ $option->option }}" class="option__card">
                         <h5 class="mb-2">{{ $option->option }}</h5>
-                        <img src="https://www.ontinyentparticipa.es/{{ $option->pictures }}" alt="Imatge de l'opció" class="option__picture" width="100%" />
 
                         @if ($question->display_cost)
                             <div class="option__cost">{{ number($option->cost, 0) . '€' }}</div>

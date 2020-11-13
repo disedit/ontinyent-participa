@@ -1,19 +1,18 @@
-{{--
-  <div class="about-block about-block--vote-yea">
+<h2><strong>Ontinyent Participa 2020</strong></h2>
+
+<div class="embed-responsive embed-responsive-16by9" style="border-radius: 5px; overflow: hidden;">
+<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/iUx1UGo0cuY?modestbranding=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="about-block about-block--vote-yea">
   <div class="about-block__icon">
     <i class="far fa-vote-yea"></i>
   </div>
   <h3>Què es votarà?</h3>
 
-  <p>Es podrà votar 1 de les 2 propostes plantejades.</p>
+  <p>Es podrà votar fins a 5 de les 10 propostes finalistes.</p>
 
   [options]
-</div>
---}}
-<h2><strong>Ontinyent Participa 2020</strong></h2>
-
-<div class="embed-responsive embed-responsive-16by9" style="border-radius: 5px; overflow: hidden;">
-<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/LXKNoxA7bhs?modestbranding=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class="about-block">
