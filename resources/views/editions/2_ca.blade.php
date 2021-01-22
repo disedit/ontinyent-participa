@@ -165,17 +165,6 @@
 
 <div class="about-block">
   <div class="about-block__icon">
-    <i class="far fa-building"></i>
-  </div>
-  <h3>On es participa?</h3>
-
-  <p>Es podrà votar telemàticament per mitjà del sistema
-    habilitat per internet.
-  </p>
-</div>
-
-<div class="about-block">
-  <div class="about-block__icon">
     <i class="far fa-globe-europe"></i>
   </div>
 

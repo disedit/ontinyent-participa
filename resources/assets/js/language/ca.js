@@ -1,6 +1,6 @@
 export default {
   global: {
-    tweet: 'He votat en què projectes vull que Ontinyent invertisca'
+    tweet: 'He votat en quins projectes vull que Ontinyent invertisca'
   },
   option: {
     cost: 'Cost',
@@ -17,7 +17,7 @@ export default {
   },
   booth_identification: {
     heading: 'Identificació',
-    subheading: 'Pots votar si tens més de <strong>{min_age} anys</strong> i estàs empadronat al <strong>barri del Llombo</strong>',
+    subheading: 'Pots votar si tens més de <strong>{min_age} anys</strong> i estàs empadronat a <strong>Ontinyent</strong>',
     label: 'DNI, NIE o Passaport',
     tooltip: 'Passaport només si eres resident estranger',
     button: 'Vota',

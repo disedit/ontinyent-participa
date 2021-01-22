@@ -12,7 +12,7 @@ return [
     'facebook_locale' => 'ca_ES',
     'heading' => 'Decidim la ciutat que volem',
     'subheading' => 'El <strong>Govern d\'Ontinyent</strong> ha establert la regeneració democràtica i la participació ciutadana com un dels seus pilars bàsics. Regeneració democràtica que passa per donar la veu als ciutadans i ciutadanes i apropar-los a la pressa de decisions. ',
-    'tweet' => 'He votat en què projectes vull que @ajOntinyent invertisca',
+    'tweet' => 'He votat en quins projectes vull que @ajOntinyent invertisca',
     'description' => 'Tu decideixes les inversions de l\'Ajuntament. El Govern d\'Ontinyent t\'obri la possibilitat de participar activament en les decisions que més t\'afecten. Junts volem millorar Ontinyent, i el teu vot compta!',
     'keywords' => 'ontinyent, ajuntament, ayuntamiento, govern, obert, participacio ciutadana, democracia participativa, ontinyent participa, votació, votación, referendum',
 
