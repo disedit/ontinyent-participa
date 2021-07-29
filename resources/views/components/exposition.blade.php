@@ -14,9 +14,12 @@
     <p>La reforma de la Plaça de la Concepció mantindrà el trànsit de vehicles cap al Pont de la Paduana i a la vegada, eliminarà el trànsit de pas circular amb l’execució d’un espai de planta única, dividit en dues parts que millorarà l’<strong>ús públic i les activitats festives i culturals i d’hostaleria</strong>.</p>
     <p>Tot i eliminar l’estacionament i el trànsit circular es respectaran els accessos a plantes baixes i garatges. La plaça tindrà un <strong>repaviment per complet i s’incorporarà un arbrat i uns jardins potents</strong> per garantir la presència d’espècies endògenes que tinguen un fàcil manteniment. En l’espai més proper a la Glorieta s’instal·larà un element d’aigua on s’ubicarà al <strong>Pescauret</strong>.</p>
     <p>El cost de les obres superarà el milió d’euros i s’espera que estiguen <strong>finalitzades per a l’any 2023</strong>.</p>
+    <p><span class="tag" style="border:0">Enquesta</span></p>
+    <div class="typeform-widget" data-url="https://form.typeform.com/to/rlfiVxTy?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
     <p class="propose">
         Podeu enviar les vostres idees i suggeriment a <a href="mailto:participacio@ontinyent.es">participacio@ontinyent.es</a>
     </p>
+    <p style="margin: 2rem auto -.5rem"><span class="tag" style="border:0;">Documents adjunts</span></p>
     <a href="https://ontinyentparticipa.es/2021/docs/paneles.pdf" class="btn btn-lg btn-block btn-outline-primary">
         <i class="far fa-cloud-download"></i> Descarrega els panels de l'exposició en PDF (17mb)
     </a>
