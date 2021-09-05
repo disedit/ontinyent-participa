@@ -13,8 +13,10 @@
   <h3>Què es votarà?</h3>
 
   <p>Es podrà votar fins a 5 de les 10 propostes finalistes.</p>
-
-  [options]
+  <p>Pots enviar la teua proposta fins el 19 de setembre.</p>
+  <p>
+    <a href="/propose" class="btn btn-primary">Envia la teua proposta</a>
+  </p>
 </div>
 
 <div class="about-block">
@@ -27,9 +29,9 @@
         <div class="phase__calendar">
             <div class="calendar">
                 <div class="calendar__heading">Propostes</div>
-                <div class="calendar__dates" aria-label="14 de setembre al 4 d'octubre">
-                    <div class="calendar__days" aria-hidden="true"><strong>14</strong> - <strong>4</strong></div>
-                    <div class="calendar__month" aria-hidden="true">set. / oct.</div>
+                <div class="calendar__dates" aria-label="6 al 19 de setembree">
+                    <div class="calendar__days" aria-hidden="true"><strong>6</strong> - <strong>19</strong></div>
+                    <div class="calendar__month" aria-hidden="true">setembre</div>
                 </div>
             </div>
         </div>
@@ -43,7 +45,7 @@
     <div class="phase__path">
         <img src="/images/path-1.svg" alt="">
     </div>
-
+<!-- 
     <div class="phase">
         <div class="phase__calendar">
             <div class="calendar">
@@ -57,15 +59,18 @@
         <div class="phase__text">
             <p>
               <strong>Tallers formatius i deliberatius</strong> per a la formulació consensuada de propostes entre la ciutadania. Els tallers tindran lloc el 16, 23 i 30 de setembre de 2020.
+            
               <ul>
                 <li>
                   Taller formatiu: "<strong>Igualtat, Gènere i Joventut en la Responsabilitat Social Corporativa</strong>"
                   <div class="text-muted">16 de setembre a les 19.30h, Sala Gomis</div>
                 </li>
               </ul>
+            
             </p>
         </div>
     </div>
+    -->
 
     <div class="phase__path mt-0">
         <img src="/images/path-2.svg" alt="" style="transform: rotate(180deg);">
@@ -76,8 +81,8 @@
           <div class="calendar">
               <div class="calendar__heading">Fase tècnica</div>
               <div class="calendar__dates">
-                  <div class="calendar__days"><strong>5</strong> - <strong>30</strong></div>
-                  <div class="calendar__month">octubre</div>
+                  <div class="calendar__days"><strong>20</strong> - <strong>24</strong></div>
+                  <div class="calendar__month">setembre</div>
               </div>
           </div>
       </div>
@@ -97,8 +102,8 @@
           <div class="calendar">
               <div class="calendar__heading">Sectorials</div>
               <div class="calendar__dates">
-                  <div class="calendar__days"><strong>2</strong> - <strong>6</strong></div>
-                  <div class="calendar__month">novembre</div>
+                  <div class="calendar__days"><strong>27</strong> - <strong>30</strong></div>
+                  <div class="calendar__month">setembre</div>
               </div>
           </div>
       </div>
@@ -112,7 +117,7 @@
     <div class="phase__path mt-0">
         <img src="/images/path-2.svg" alt="" style="transform: rotate(180deg);">
     </div>
-
+<!--
     <div class="phase">
       <div class="phase__calendar">
           <div class="calendar">
@@ -133,14 +138,14 @@
     <div class="phase__path mt-0">
         <img src="/images/path-1.svg" alt="" style="transform: rotate(180deg);">
     </div>
-
+  -->
     <div class="phase">
         <div class="phase__calendar">
             <div class="calendar calendar--red">
                 <div class="calendar__heading">Votació</div>
                 <div class="calendar__dates">
-                    <div class="calendar__days"><strong>17</strong> - <strong>29</strong></div>
-                    <div class="calendar__month">novembre</div>
+                    <div class="calendar__days"><strong>1</strong> - <strong>14</strong></div>
+                    <div class="calendar__month">octubre</div>
                 </div>
             </div>
         </div>
@@ -193,7 +198,7 @@
 
   <p>
     S’ha establert un període de votació que començarà, a les 00h del
-    dia <strong>17 de novembre de 2020</strong> i conclourà el dia <strong>29 de novembre</strong>.
+    dia <strong>1 d'octubre de 2021</strong> i conclourà el dia <strong>14 d'octubre</strong> a les 23:59.
   </p>
 </div>
 
@@ -205,6 +210,6 @@
 
   <p>
     El resultat de la votació es farà públic
-    <strong>només concloga el període de votació</strong> el dia 30 de novembre.
+    <strong>només concloga el període de votació</strong> el dia 15 d'octubre.
   </p>
 </div>
