@@ -1,5 +1,20 @@
 <div class="wayback">
     <div class="container">
+        <p><span class="tag">Exposició</span></p>
+        <h2><a href="/showroom/concepcio">Projecte de reurbanització de la Plaça Concepció</a></h2>
+        <a href="/showroom/concepcio" class="gallery mb-4">
+            <img src="https://ontinyentparticipa.es/2021/docs/pl-1.jpg" alt="" />
+            <img src="https://ontinyentparticipa.es/2021/docs/pl-2.jpg" alt="" />
+            <img src="https://ontinyentparticipa.es/2021/docs/pl-3.jpg" alt="" />
+        </a>
+        <a href="/showroom/concepcio" class="btn btn-lg btn-block btn-outline-primary mb-4">
+            Més informació
+        </a>
+    </div>
+</div>
+
+<div class="wayback">
+    <div class="container">
         <h2>#OntinyentParticipa</h2>
         <div class="row">
             <div class="col-12">

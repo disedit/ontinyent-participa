@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-md-8 vote-info__text">
                     <h2>@lang('participa.heading')</h2>
-                    <p class="vote-info__intro d-none">Comencem una edició de l'Ontinyent Participa adaptada a la pandèmia, amb més formació per a la ciutadania i més temps per a votar. S'estableix que un mínim del 50% de les propostes guanyadores estiguen destinades a causes o accions de caràcter social, mediambiental o igualitari, d'acord amb els objectius de l'Agenda 2030.</p>
+                    <p class="vote-info__intro">Comencem una edició de l'Ontinyent Participa adaptada a la pandèmia, amb més formació per a la ciutadania i més temps per a votar. S'estableix que un mínim del 50% de les propostes guanyadores estiguen destinades a causes o accions de caràcter social, mediambiental o igualitari, d'acord amb els objectius de l'Agenda 2030.</p>
 
                     @if (isset($edition))
                         <p class="vote-info__action">

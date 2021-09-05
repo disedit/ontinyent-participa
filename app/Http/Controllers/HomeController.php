@@ -31,17 +31,7 @@ class HomeController extends Controller
     /**
      * Temp landpage
      */
-    public function index()
-    {
-        return view('landing');
-    }
-
-    /**
-     * Determine what page to show on the frontpage.
-     *
-     * @return \Illuminate\View\View
-     */
-    public function edition(Request $request)
+    public function index(Request $request)
     {
         $now = time();
         $edition = $this->edition;

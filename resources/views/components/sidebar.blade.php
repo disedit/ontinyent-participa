@@ -15,7 +15,7 @@
 
         <h4>{!! $edition->name !!}</h4>
         <p class="sidebar__secondary mb-0 mt-3"><strong>Fase de presentació de propostes</strong></p>
-        <p class="sidebar__secondary">Del 14 de setembre al 4 d'octubre</p>
+        <p class="sidebar__secondary">Del 6 al 19 de setembre 2021</p>
 
         <div class="sidebar__social-plugins">
             @component('components.share_buttons', ['share' => 'false'])
@@ -116,6 +116,7 @@
         <p>@lang('participa.contact_text', ['contact_email' => config('participa.contact_email')])</p>
     </section>
 
+    {{--
     @isset ($pastEditions)
         @if (count($pastEditions) > 0)
             <section aria-labelledby="past-editions" class="sidebar__box">
@@ -133,6 +134,7 @@
             </section>
         @endif
     @endisset
+    --}}
 
     <div>
         {!! $edition->sidebar !!}

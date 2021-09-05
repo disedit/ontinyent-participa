@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\URL;
 */
 
 Route::get('/', 'HomeController@index');
+Route::view('/showroom/concepcio', 'landing');
 Route::get('/about', 'HomeController@about');
 Route::get('/propose', 'HomeController@propose');
 Route::get('/booth/{route}', 'HomeController@index');
