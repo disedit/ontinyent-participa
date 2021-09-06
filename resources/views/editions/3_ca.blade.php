@@ -1,10 +1,8 @@
 <h2><strong>Ontinyent Participa 2022</strong></h2>
 
-<!--
 <div class="embed-responsive embed-responsive-16by9" style="border-radius: 5px; overflow: hidden;">
-<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/iUx1UGo0cuY?modestbranding=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/VcQuxnRvkXs?modestbranding=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
--->
 
 <div class="about-block about-block--vote-yea">
   <div class="about-block__icon">
@@ -45,32 +43,32 @@
     <div class="phase__path">
         <img src="/images/path-1.svg" alt="">
     </div>
-<!-- 
+
     <div class="phase">
         <div class="phase__calendar">
             <div class="calendar">
-                <div class="calendar__heading">Tallers</div>
-                <div class="calendar__dates">
-                    <div class="calendar__days"><strong>16</strong>, <strong>23</strong> i <strong>30</strong></div>
-                    <div class="calendar__month">setembre</div>
-                </div>
+              <div class="calendar__heading">Tallers</div>
+              <div class="calendar__dates" aria-label="6 al 19 de setembree">
+                  <div class="calendar__days" aria-hidden="true"><strong>6</strong> - <strong>19</strong></div>
+                  <div class="calendar__month" aria-hidden="true">setembre</div>
+              </div>
             </div>
         </div>
         <div class="phase__text">
             <p>
-              <strong>Tallers formatius i deliberatius</strong> per a la formulació consensuada de propostes entre la ciutadania. Els tallers tindran lloc el 16, 23 i 30 de setembre de 2020.
-            
-              <ul>
-                <li>
-                  Taller formatiu: "<strong>Igualtat, Gènere i Joventut en la Responsabilitat Social Corporativa</strong>"
-                  <div class="text-muted">16 de setembre a les 19.30h, Sala Gomis</div>
-                </li>
-              </ul>
-            
+              <strong>Tallers formatius i deliberatius</strong> per a la formulació consensuada de propostes entre la ciutadania. 
+              <!--Els tallers tindran lloc el 16, 23 i 30 de setembre de 2020.-->
+              <!--
+                <ul>
+                  <li>
+                    Taller formatiu: "<strong>Igualtat, Gènere i Joventut en la Responsabilitat Social Corporativa</strong>"
+                    <div class="text-muted">16 de setembre a les 19.30h, Sala Gomis</div>
+                  </li>
+                </ul>
+              -->
             </p>
         </div>
     </div>
-    -->
 
     <div class="phase__path mt-0">
         <img src="/images/path-2.svg" alt="" style="transform: rotate(180deg);">
@@ -109,7 +107,7 @@
       </div>
       <div class="phase__text">
           <p>
-            Els <strong>Consells Sectorials</strong> es reuniran per valorar i decidir la puntuació que atorguen a cada proposta i finalment, al <strong>Consell de ciutat es votaran les 10 propostes finalistes</strong>.
+            Celebració dels diferents <strong>consells sectorials</strong> que decidiran els 10 projectes que seran objecte de votació.
           </p>
       </div>
     </div>
@@ -117,20 +115,21 @@
     <div class="phase__path mt-0">
         <img src="/images/path-2.svg" alt="" style="transform: rotate(180deg);">
     </div>
-<!--
+
     <div class="phase">
       <div class="phase__calendar">
           <div class="calendar">
               <div class="calendar__heading">Campanya</div>
               <div class="calendar__dates">
-                  <div class="calendar__days"><strong>9</strong> - <strong>13</strong></div>
-                  <div class="calendar__month">novembre</div>
+                  <div class="calendar__days"><strong>27</strong> - <strong>30</strong></div>
+                  <div class="calendar__month">setembre</div>
               </div>
           </div>
       </div>
       <div class="phase__text">
           <p>
-            <strong>Les propostes finalistes seran exposades i defensades pels seus proposants</strong> mitjançant les xarxes oficials de l'Ajuntament d'Ontinyent. 
+            S'informarà dels projectes que seran objecte de votació i del període i llocs on es podrà votar.
+            Les persones proposants els presentaran en un acte públic.
           </p>
       </div>
     </div>
@@ -138,7 +137,7 @@
     <div class="phase__path mt-0">
         <img src="/images/path-1.svg" alt="" style="transform: rotate(180deg);">
     </div>
-  -->
+
     <div class="phase">
         <div class="phase__calendar">
             <div class="calendar calendar--red">

@@ -1,4 +1,4 @@
-<div class="wayback">
+{{-- <div class="wayback">
     <div class="container">
         <p><span class="tag">Exposició</span></p>
         <h2><a href="/showroom/concepcio">Projecte de reurbanització de la Plaça Concepció</a></h2>
@@ -11,7 +11,7 @@
             Més informació
         </a>
     </div>
-</div>
+</div> --}}
 
 <div class="wayback">
     <div class="container">
