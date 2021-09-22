@@ -11,10 +11,6 @@
   <h3>Què es votarà?</h3>
 
   <p>Es podrà votar fins a 5 de les 10 propostes finalistes.</p>
-  <p>Pots enviar la teua proposta fins el 19 de setembre.</p>
-  <p>
-    <a href="/propose" class="btn btn-primary">Envia la teua proposta</a>
-  </p>
 </div>
 
 <div class="about-block">
@@ -35,7 +31,7 @@
         </div>
         <div class="phase__text">
             <p>
-              La ciutadania i les associacions poden fer arribar les propostes mitjançant el <a href="/propose">formulari online</a>.
+              La ciutadania i les associacions poden fer arribar les propostes.
             </p>
         </div>
     </div>
@@ -94,7 +90,7 @@
     <div class="phase__path mt-0">
         <img src="/images/path-1.svg" alt="" style="transform: rotate(180deg);">
     </div>
-
+340px
     <div class="phase">
       <div class="phase__calendar">
           <div class="calendar">
