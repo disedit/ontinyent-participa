@@ -18,7 +18,7 @@
         <hr class="mt-3" />
         <div class="row">
           <div class="col-sm-6">
-            <a :href="baseUrl()"
+            <a href="/"
               target="_blank"
               :class="{
                 'btn btn-lg btn-block': true,

@@ -21,14 +21,6 @@ Raven
   .addPlugin(RavenVue, Vue)
   .install();
 
-Vue.mixin({
-  methods: {
-    baseUrl (path) {
-      return window.Participa.baseUrl(path);
-    }
-  }
-});
-
 const app = new Vue({
   el: '#admin',
   components: { Admin },

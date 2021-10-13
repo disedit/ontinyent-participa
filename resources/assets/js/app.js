@@ -72,14 +72,6 @@ const i18n = new VueI18n({
   messages,
 });
 
-Vue.mixin({
-  methods: {
-    baseUrl (path) {
-      return window.Participa.baseUrl(path);
-    }
-  }
-});
-
 const app = new Vue({
   el: '#booth',
   router,
